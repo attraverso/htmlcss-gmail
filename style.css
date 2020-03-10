@@ -1,0 +1,102 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("pics/wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+/* End General */
+
+/* Header */
+
+header {
+    height: 45px;
+}
+
+header hr {
+    color:white;
+}
+
+.icons {
+    height: 40px;
+}
+
+.left-spacing {
+    margin-left: 30px;
+}
+
+.inlinelmnts {
+    display: inline;
+}
+
+.sidebyside {
+    display: inline-block;
+}
+
+#unreadcounter {
+    background-color: #890402;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+/* End Header */
+
+/* Aside - left navbar */
+
+aside {
+    width:215px;
+    height: 500px;
+}
+
+.transparent-bg {
+    background-color: rgba(33, 32, 32, 0.66);
+}
+
+.catborder {
+    border: 1px solid rgba(84, 83, 83, 0.66);
+}
+
+/* End Aside - left navbar */
+
+/* Main message display */
+
+main {
+    width: 70%;
+    height: 502px;
+    margin-top: 1px;
+}
+
+.important {
+    color: yellow;
+}
+
+.unreadmailobject {
+    font-weight: 700;
+}
+
+.readinbox {
+    background-color: rgba(69, 68, 68, 0.66);
+}
+
+.unreadinbox {
+    background-color: rgba(117, 106, 106, 0.66);
+    border: 1px solid rgba(165, 165, 165, 0.66);
+}
+
+/* End Main message display */
+
+footer {
+    text-align: center;
+}
